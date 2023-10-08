@@ -45,8 +45,29 @@ $modules: () !default;
 
 // STRIP UNIT
 // It strips the unit of measure and returns it
-@function strip-unit($num) {
-  @return math.div($num, $num * 0 + 1);
+@function strip-unit($value) {
+  @if type-of($value)=="number" {
+    @if (unitless($value)) {
+      @return $value;
+    }
+
+    @else if unit($value)=="em" {
+      @return calc($value / 1em);
+    }
+
+    @else if unit($value)=="px" {
+      @return calc($value / 1px);
+    }
+
+    @else if unit($value)=="pt" {
+      @return calc($value / 1pt);
+    }
+  }
+
+  @else {
+    @warn "Not a number value: #{$value}";
+    @return $value;
+  }
 }
 
 // TEXT INPUT TYPES
