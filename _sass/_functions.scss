@@ -72,7 +72,7 @@ $modules: () !default;
 
 // STRIP UNIT
 // It strips the unit of measure and returns it
-@function strip-unit($value) {
+@function strip_unit($value) {
   @return calc($value / ($value * 0 + 1));
 }
 
