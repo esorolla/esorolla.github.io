@@ -72,8 +72,8 @@ $modules: () !default;
 
 // STRIP UNIT
 // It strips the unit of measure and returns it
-@function strip-unit($num) {
-  @return calc($num / ($num * 0 + 1));
+@function strip-unit($value) {
+  @return calc($value / ($value * 0 + 1));
 }
 
 // TEXT INPUT TYPES
