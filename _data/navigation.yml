@@ -1,0 +1,75 @@
+- title: Inicio
+  url: "/"
+  side: left
+
+- title: Cómo Utilizar
+  url: "/getting-started/"
+  side: left
+
+- title: "Plantillas"
+  url: "/design/"
+  side: left
+  dropdown:
+  - title: "Cuadrícula & Colores"
+    url: "/design/grid/"
+  - title: "Tipografía"
+    url: "/design/typography/typography/"
+  - title: "Página/Post"
+    url: "/design/page/"
+  - title: "Post-Barra lateral-Izquierda"
+    url: "/design/post-left-sidebar/"
+  - title: "Post-Barra lateral-derecha"
+    url: "/design/post-right-sidebar/"
+  - title: "Anchura completa"
+    url: "/design/page-fullwidth/"
+  - title: "Página-Blog"
+    url: "/blog/"
+  - title: "Vídeo"
+    url: "/design/video/"
+  - title: "Galería"
+    url: "/design/gallery/"
+  - title: "Portafolio"
+    url: "/design/portfolio/"
+
+- title: "Estilos de Titular"
+  url: "/headers/"
+  side: left
+  dropdown:
+  - title: "Titular a anchura completa"
+    url: "/design/header-full-width-image/"
+  - title: "Titular com Imagen y Estampado"
+    url: "/design/header-image-pattern/"
+  - title: "Titular con Imagen y Color"
+    url: "/design/header-image-color/"
+  - title: "Titular sólo con Logo"
+    url: "/design/header-logo-only/"
+  - title: "Titular con Texto"
+    url: "/design/header-with-text/"
+  - title: "Sin Titular"
+    url: "/design/no-header/"
+  - title: "Sin Titular pero con Imagen"
+    url: "/design/no-header-but-image/"
+
+- title: Documentación
+  url: "/documentation/"
+  side: left
+  dropdown:
+  - title: "Changelog"
+    url: "/changelog/"
+  - title: "Roadmap"
+    url: "/roadmap/"
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: "Buscar"
+  url: "/search/"
+  side: right
+
+- title: "Contacto"
+  url: "/contact/"
+  side: right

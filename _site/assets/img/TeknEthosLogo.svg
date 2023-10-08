@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="600"
+   height="80"
+   viewBox="0 0 600 79.999999"
+   sodipodi:docname="TeknEthosLogo.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:export-filename="C:\Personal\Blog\TeknEthos\assets\img\TeknEthosLogo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     inkscape:zoom="2.1121132"
+     inkscape:cx="357.22517"
+     inkscape:cy="31.958514"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="2040"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g8">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:71.8644px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.38984px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="105.47817"
+       y="55.843983"
+       id="text1063"
+       transform="scale(1.0142543,0.98594603)"><tspan
+         sodipodi:role="line"
+         id="tspan1061"
+         x="105.47817"
+         y="55.843983"
+         style="font-size:71.8644px;fill:#ffffff;fill-opacity:1;stroke-width:5.38984px">TeknEthos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.018px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.57173px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="187.50073"
+       y="76.520378"
+       id="text1063-7"
+       transform="scale(1.0301893,0.9706954)"><tspan
+         sodipodi:role="line"
+         id="tspan1061-8"
+         x="187.50073"
+         y="76.520378"
+         style="font-size:18.018px;fill:#ffffff;fill-opacity:1;stroke-width:5.57173px">Una Mirada Ética hacia la Tecnología</tspan></text>
+  </g>
+</svg>

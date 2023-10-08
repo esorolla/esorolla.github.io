@@ -1,0 +1,21 @@
+			{% if page.comments %}
+				<!--<h3 id="comments" class="t60">{{ site.data.language.comments_headline }}</h3> -->
+
+				<div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/020926f1180b26103d233525a94a0850?embedded=1"></div>
+
+				<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+				<script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+
+				<!-- Get notified when the form is submitted, add your own code below: -->
+				<script>
+				const formkeepEmbed = document.querySelector('#formkeep-embed')
+
+				formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+				console.log('Submitting form...')
+				})
+
+				formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+				console.log('Submitted form...')
+				})
+				</script>
+			{% endif %}

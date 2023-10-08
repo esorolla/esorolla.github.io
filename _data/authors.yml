@@ -1,0 +1,14 @@
+# Author details
+#
+# 1. Edit information below
+# 2. Change site author in config.yml
+# 3. Change default post/page authors in config.yml
+#
+# Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
+esorolla: # replace this with your info
+  name: "Eden Sorolla"
+  siterole: "Data Scientist, Blogger, Physicist"
+##  uri: http://phlow.de/
+  email: eden.sorolla@gmail.com
+  username: "esorolla"
+# you can add more authors here

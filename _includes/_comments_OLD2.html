@@ -1,0 +1,9 @@
+			{% if page.comments %}
+				<h3 id="comments" class="t60">{{ site.data.language.comments_headline }}</h3>
+					<form accept-charset="UTF-8" action="https://formkeep.com/f/exampletoken" method="POST">
+					<input type="email" name="email" placeholder=eden.sorolla@gmail.com>
+					<input type="text" name="name" placeholder=esorolla>
+					<input type="hidden" name="utf8" value="✓">
+					<button type="submit">Submit</button>
+					</form>
+			{% endif %}
