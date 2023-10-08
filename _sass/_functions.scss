@@ -113,7 +113,7 @@ $modules: () !default;
 
 // CONVERT TO REM
 @function convert-to-rem($value, $base_value: $rem_base) {
-  $value: (calc(strip_unit($value) / strip_unit($base_value))) * 1rem;
+  $value: 1rem * calc(strip_unit($value) / strip_unit($base_value));
 
   @if ($value ==0rem) {
     $value: 0;
