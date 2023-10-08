@@ -382,7 +382,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
               @include css-triangle($topbar-dropdown-toggle-size, rgba($topbar-dropdown-toggle-color, $topbar-dropdown-toggle-alpha), $default-float);
             }
             margin-#{$opposite-direction}: $topbar-link-padding;
-            margin-top: - math.div($topbar-dropdown-toggle-size, 2) - 2;
+            margin-top: - calc($topbar-dropdown-toggle-size / 2) - 2;
             position: absolute;
             top: 50%;
             #{$opposite-direction}: 0;
@@ -469,7 +469,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           font-size: rem-calc(14);
           position: relative;
           height: $topbar-input-height;
-          top: (math.div($topbar-height - $topbar-input-height, 2));
+          top: (calc($topbar-height - $topbar-input-height / 2));
         }
 
         &.expanded { background: $topbar-bg; }
@@ -539,8 +539,8 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
               padding-#{$opposite-direction}: $topbar-link-padding + $topbar-link-dropdown-padding !important;
               &:after {
                 @include css-triangle($topbar-dropdown-toggle-size, rgba($topbar-dropdown-toggle-color, $topbar-dropdown-toggle-alpha), top);
-                margin-top: - math.div($topbar-dropdown-toggle-size, 2);
-                top: math.div($topbar-height, 2);
+                margin-top: - calc($topbar-dropdown-toggle-size / 2);
+                top: calc($topbar-height / 2);
               }
             }
           }
@@ -631,7 +631,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
         .has-form {
           background: $topbar-link-bg;
-          padding: 0 math.div($topbar-height, 3);
+          padding: 0 calc($topbar-height / 3);
           height: $topbar-height;
         }
 
