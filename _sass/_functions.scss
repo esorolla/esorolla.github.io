@@ -45,7 +45,7 @@ $modules: () !default;
 
 // STRIP UNIT
 // It strips the unit of measure and returns it
-@function strip-unit($value) {
+@function strip_unit($value) {
   @if type-of($value)=="number" {
     @if (unitless($value)) {
       @return $value;
@@ -113,7 +113,7 @@ $modules: () !default;
 
 // CONVERT TO REM
 @function convert-to-rem($value, $base-value: $rem-base) {
-  $value: calc(strip-unit($value) / strip-unit($base-value)) * 1rem;
+  $value: calc(strip_unit($value) / strip_unit($base-value)) * 1rem;
 
   @if ($value ==0rem) {
     $value: 0;
