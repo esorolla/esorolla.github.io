@@ -45,36 +45,36 @@ $modules: () !default;
 
 // STRIP UNIT
 // It strips the unit of measure and returns it
-//@function strip_unit($value) {
-//  @if type-of($value)=="number" {
-//    @if (unitless($value)) {
-//      @return $value;
-//    }
-//
-//    @else if unit($value)=="em" {
-//      @return calc($value / 1em);
-//    }
-//
-//    @else if unit($value)=="px" {
-//      @return calc($value / 1px);
-//    }
-//
-//    @else if unit($value)=="pt" {
-//      @return calc($value / 1pt);
-//    }
-//  }
-//
-//  @else {
-//    @warn "Not a number value: #{$value}";
-//    @return $value;
-//  }
-//}
+@function strip_unit($value) {
+  @if type-of($value)=="number" {
+    @if (unitless($value)) {
+      @return $value;
+    }
+
+    @else if unit($value)=="em" {
+      @return calc($value / 1em);
+    }
+
+    @else if unit($value)=="px" {
+      @return calc($value / 1px);
+    }
+
+    @else if unit($value)=="pt" {
+      @return calc($value / 1pt);
+    }
+  }
+
+  @else {
+    @warn "Not a number value: #{$value}";
+    @return $value;
+  }
+}
 
 // STRIP UNIT
 // It strips the unit of measure and returns it
-@function strip_unit($value) {
-  @return calc($value / ($value * 0 + 1));
-}
+//@function strip_unit($value) {
+//  @return $value / ($value * 0 + 1);
+//}
 
 // TEXT INPUT TYPES
 
@@ -119,7 +119,8 @@ $modules: () !default;
 
 // CONVERT TO REM
 @function convert-to-rem($value, $base_value: $rem_base) {
-  $value: 1rem * (strip_unit($value) / strip_unit($base_value));
+  //$value: 1rem * (strip_unit($value) / strip_unit($base_value));
+  $value: calc(strip-unit($value) / strip-unit($base-value) * 1rem);
 
   @if ($value ==0rem) {
     $value: 0;
