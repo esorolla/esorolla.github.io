@@ -27,7 +27,7 @@ author: esorolla
 #
 # url: 'https://phlow.github.io'
 url: 'https://esorolla.github.io/'
-baseurl: '/_site'
+baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
