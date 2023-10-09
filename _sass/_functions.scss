@@ -119,7 +119,7 @@ $modules: () !default;
 
 // CONVERT TO REM
 @function convert-to-rem($value, $base_value: $rem_base) {
-    $remValue: calc(($value / 16) + rem); 
+    $remValue: calc($value / 16) * 1rem; 
     @return $remValue;
 }
 
